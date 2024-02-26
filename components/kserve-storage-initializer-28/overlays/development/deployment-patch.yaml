@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: kserve-storage-initializer-28
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhoai-tenant/kserve-storage-initializer/kserve-storage-initializer-28@sha256:fef2401a2596360a16e7282551b498b1f76b3e0e80af931270417c5a7d9a4cb1
+        name: container-image
+        resources: {}
+status: {}
