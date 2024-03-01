@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: kserve-storage-initializer
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhoai-tenant/kserve-storage-initializer/kserve-storage-initializer@sha256:cd295cb517e26797dbf87dd5b4e98aa4af469e861ad96d53b77aa1ee9c172402
+      - image: quay.io/redhat-user-workloads/rhoai-tenant/kserve-storage-initializer/kserve-storage-initializer@sha256:4920c9f6531a7448bdc4ff9f772528e22f87f68819e36e04c7af9ae15e83d99b
         imagePullPolicy: Always
         name: container-image
         ports:
