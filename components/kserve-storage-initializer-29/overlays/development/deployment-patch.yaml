@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: kserve-storage-initializer-29
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/modh/kserve-storage-initializer@sha256:4d373d424bedb66e59b33561c3a100f233483c2217832880dbc59e423fe3aa2a
+        name: container-image
+        resources: {}
+status: {}
